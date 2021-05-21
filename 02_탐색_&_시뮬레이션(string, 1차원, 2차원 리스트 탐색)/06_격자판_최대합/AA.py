@@ -33,7 +33,6 @@ n = int(input())
 a = [list(map(int, input().split())) for _ in range(n)]
 
 largest = -2147000000
-sum3 = sum4 = 0
 for i in range(n):
     sum1 = sum2 = 0
     for j in range(n):

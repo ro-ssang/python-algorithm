@@ -25,6 +25,8 @@ YES
 
 
 def DFS(l, sum):
+    if sum > tot // 2:
+        return
     if l == n:
         if sum == total - sum:
             print("YES")

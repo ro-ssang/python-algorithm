@@ -28,6 +28,8 @@ def DFS(l, sum):
     global switch
     if switch:
         return
+    if sum > total // 2:
+        return
     if l == n:
         if sum == total - sum:
             print("YES")
